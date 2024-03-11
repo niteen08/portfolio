@@ -174,8 +174,8 @@ li a:hover {
 
 .images {
     margin-left: auto;
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     text-align: center;
     overflow: hidden;
     background-color: #52489C;
@@ -361,6 +361,7 @@ li a:hover {
     .images {
         width: 100%;
         margin: auto;
+        overflow: hidden;
     }
 
     .main {
@@ -370,7 +371,7 @@ li a:hover {
 
 #skills {
     width: 100%;
-    padding: 100px 0;
+    padding: 5px 0;
 }
 
 #skills .svgs {
