@@ -403,8 +403,4 @@ li a:hover {
 #skills .svgs .svg {
     height: 60px;
     cursor: none;
-    -webkit-transform: translateY(50px);
-    -ms-transform: translateY(50px);
-    transform: translateY(50px);
-    scale: 0.7;
 }
