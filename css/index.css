@@ -174,8 +174,8 @@ li a:hover {
 
 .images {
     margin-left: auto;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     text-align: center;
     overflow: hidden;
     background-color: #52489C;
@@ -359,14 +359,14 @@ li a:hover {
         right: 4rem;
     }
     .images {
-        width: 100%;
+        width: 250px;
+        height: 250px;
         margin: auto;
-        overflow: hidden;
     }
 
-    .main {
+    /*.main {
         margin-top: 2rem;
-    }
+    }*/
 }
 
 #skills {
