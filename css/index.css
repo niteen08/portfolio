@@ -406,3 +406,148 @@ li a:hover {
     height: 60px;
     cursor: none;
 }
+
+
+#contact h2{
+    margin-top: 3rem;
+    font-size: 3rem;
+    text-align: center;
+     
+}
+  
+.containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0%;
+   
+
+}
+.form-container h1{
+    color:#f4d35e;
+  }
+  
+.form-container {
+    width: 400px;
+    background: linear-gradient(#fff, #fff) padding-box,
+                linear-gradient(145deg, transparent 35%,#f4d35e, #003566) border-box;
+    border: 4px solid transparent;
+    margin-top: 1rem;
+    padding: 32px 50px;
+    font-size: 14px;
+    font-family: inherit;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 10px;
+    border-radius: 16px;
+    background-size: 200% 100%;
+    animation: rightSideAni 1.5s ease forwards;
+     
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .form-container button:active {
+    scale: 0.95;
+  }
+  
+  .form-container .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  .form-container .form-group label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  
+  .form-container .form-group input {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: inherit;
+    background-color: transparent;
+    border: 1px solid #414141;
+  }
+  
+  .form-container .form-group textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    resize: none;
+    color: #fff;
+    height: 96px;
+    border: 1px solid #414141;
+    background-color: transparent;
+    font-family: inherit;
+  }
+  
+  .form-container .form-group input::placeholder {
+    opacity: 0.5;
+  }
+  
+  .form-container .form-group input:focus {
+    outline: none;
+    border-color: #f4d35e;
+  }
+  
+  .form-container .form-group textarea:focus {
+    outline: none;
+    border-color: #f4d35e;
+  }
+  
+  .form-container .form-submit-btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: flex-start;
+    font-family: inherit;
+    color: black;
+    font-weight: 600;
+    width: 40%;
+   background-color: #f4d35e;
+    border: 1px solid #414141;
+    padding: 12px 16px;
+    font-size: inherit;
+    gap: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .form-container .form-submit-btn:hover {
+    background: #313131;
+    color: #fff;
+    border-color: #fff;
+  }
+  
+  
+  
+  
