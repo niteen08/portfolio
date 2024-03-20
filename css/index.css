@@ -4,7 +4,7 @@
 :root {
     /* --primary-color: #f9532d; */
     /* --primary-dark: #1F252E; */
-    --primary-color: #52489C;
+    --primary-color: #f4d35e;
     --primary-dark: #1F252E;
 }
 
@@ -153,7 +153,8 @@ li a:hover {
     place-items: center;
     text-decoration: none;
     background-color: var(--primary-color);
-    color: #ffffff;
+    color: var(--primary-dark);
+   
     /* border: 1.6px solid var(--primary-color); */
     font-size: 1.5rem;
     border-radius: 50%;
@@ -165,7 +166,7 @@ li a:hover {
 }
 
 .social a:hover {
-    color: var(--primary-dark);
+    color: #ffffff;
     background-color: var(--primary-color);
     box-shadow: 0 0 20px var(--primary-color);
     transition: all .3s ease-in-out;
@@ -178,7 +179,7 @@ li a:hover {
     height: 350px;
     text-align: center;
     overflow: hidden;
-    background-color: #52489C;
+    background-color: #f4d35e;
     clip-path: circle(50% at 50% 50%);
 }
 
