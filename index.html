@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/index.css">
-    
     <title>Portfolio</title>
 </head>
 
@@ -326,25 +325,25 @@
     </section>
 
     <section id="contact">
-        <h2 id="contact">Contact us</h2>
+        <h2 id="contact">Get in Touch !</h2>
         
         <div class="containers">  
             <div class="form-container">
-                <h1>Connect to Me :</h1>
+                <h1>Connect With Me :</h1>
                 <form class="form">
                   <div class="form-group">
-                    <label for="email">Username </label>
-                    <input type="text" required placeholder="enter your name...." name="name" id="name" >
-                    <label for="email">Email </label>
-                    <input type="text" required placeholder="enter your email...." name="email" id="email" >
-                    <label for="email">Subject </label>
-                    <input type="text" required placeholder="enter your Subject...." name="Subject" id="Subject" >
+                    <label for="email" class="dark">Username </label>
+                    <input type="text" class="dark" required placeholder="enter your name...." name="name" id="name" >
+                    <label for="email" class="dark">Email</label>
+                    <input type="text" class="dark" required placeholder="enter your email...." name="email" id="email" >
+                    <label for="email" class="dark">Subject </label>
+                    <input type="text" class="dark"  required placeholder="enter your Subject...." name="Subject" id="subject" >
                   </div>
                   <div class="form-group">
-                    <label for="textarea">Message to Me </label>
-                    <textarea required placeholder="enter a Message..." cols="50" rows="10" id="textarea" name="textarea"></textarea>
+                    <label for="textarea" class="dark">Message to Me </label>
+                    <textarea class="dark"  required placeholder="enter a Message..." cols="50" rows="10" id="message" name="textarea"></textarea>
                   </div>
-                  <button type="submit" class="form-submit-btn">Submit</button>
+                  <button type="submit" class="form-submit-btn" id="submit-btn">Submit</button>
                 </form>
               </div>
             </div>
@@ -352,6 +351,9 @@
         
     </section>
     
+
+    <script type="text/javascript"
+       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="js/javascript.js"></script>
 </body>
 
