@@ -12,15 +12,15 @@
             if (darkModeToggle.checked) {
                 body.classList.add('dark-mode');
                 localStorage.setItem('darkMode', 'enabled');
-                dark.forEach(element => {
-                    element.style.color = "#ffffff"; // Set text color to white
-                });
+                // dark.forEach(element => {
+                //     element.style.color = "#FFFF"; // Set text color to white
+                // });
             } else {
                 body.classList.remove('dark-mode');
                 localStorage.setItem('darkMode', 'disabled');
-                dark.forEach(element => {
-                    element.style.color = "black"; // Set text color to white
-                });
+                // dark.forEach(element => {
+                //     element.style.color = "black"; // Set text color to white
+                // });
             }
         });
     

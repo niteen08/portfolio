@@ -395,6 +395,13 @@ li a:hover {
         height: 270px;
         margin: auto;
     }
+    .platform{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-round{
+        margin-bottom: 30px;
+    }
 
     /*.main {
         margin-top: 2rem;
@@ -436,10 +443,47 @@ li a:hover {
 #skills .svgs .svg {
     height: 60px;
     cursor: none;
-    animation: 3s imageAniLeft ease;
-    animation-delay: 5s;
+    animation: 3s imageAniLeft ease 3;
+     
 }
 
+.platform{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.main-round{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: 3s topSideAni ease 3;
+}
+.main-round h3{
+    margin: 20px 0px 10px 0px;
+    
+}
+
+#resume-link{
+    text-decoration: none;
+    font-size: 1.30rem;
+    color: #f4d35e;
+}
+
+.round{
+    background-color: #414141;
+    color:#f4d35e;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+     
+}
 
 #contact h2{
     margin-top: 3rem;
@@ -513,16 +557,16 @@ li a:hover {
     display: block;
     margin-top: 10px;
     margin-bottom: 2px;
-    color: black;
     font-weight: 600;
     font-size: 12px;
+    color: #f4d35e;
   }
   
   .form-container .form-group input {
     width: 100%;
     padding: 12px 16px;
     border-radius: 8px;
-    color: black;
+    color: #f4d35e;
     font-size: medium;
     font-family: inherit;
     background-color: transparent;
@@ -534,7 +578,7 @@ li a:hover {
     padding: 12px 16px;
     border-radius: 8px;
     resize: none;
-    color: black;
+    color: #f4d35e;
     height: 96px;
     border: 1px solid #414141;
     font-size: medium;
