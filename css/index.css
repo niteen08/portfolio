@@ -173,6 +173,19 @@ li a:hover {
     transition: all .3s ease-in-out;
 }
 
+.down-button{
+    background-color: #f4d35e;
+    color: black;
+    width: 50%;
+    padding: 15px;
+     margin-top: 30px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    animation: SocialAni 1s ease forwards;
+    animation-delay: calc(.2s * var(--socialAni));
+}
 
 .images {
     margin-left: auto;
@@ -450,7 +463,7 @@ li a:hover {
 .platform{
     display: flex;
     justify-content: space-around;
-    margin-top: 80px;
+    margin-top: 30px;
     margin-bottom: 50px;
 }
 
