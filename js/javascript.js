@@ -32,6 +32,12 @@ document.addEventListener("DOMContentLoaded", function() {
     // Add event listener to the submit button
     btn.addEventListener("click", function(event) {
         event.preventDefault(); // Prevent the default form submission
+
+        // Validate form fields
+        if (name === "" || email === "" || subject === "" || message === "") {
+            alert("Please fill out all required fields.");
+            return; // Exit the function if any field is empty
+        }
         
         // Initialize EmailJS
         emailjs.init("4comUS0riNdTyKVy2"); // Replace YOUR_USER_ID with your actual EmailJS user ID
