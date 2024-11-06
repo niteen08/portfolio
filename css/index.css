@@ -530,7 +530,7 @@ li a:hover {
 }
 
 /* Media Query for even smaller screens */
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .project {
         width: 85%; /* Display each item in a single column on smaller screens */
         max-width: none; /* Remove the maximum width */

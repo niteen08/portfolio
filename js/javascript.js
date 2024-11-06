@@ -33,8 +33,14 @@ document.addEventListener("DOMContentLoaded", function() {
     btn.addEventListener("click", function(event) {
         event.preventDefault(); // Prevent the default form submission
 
+        console.log(username.value);
+        console.log(email.value);
+        console.log(subject.value);
+        console.log(message.value);
+
+
         // Validate form fields
-        if (name === "" || email === "" || subject === "" || message === "") {
+        if (username === "" || email === "" || subject === "" || message === "") {
             alert("Please fill out all required fields.");
             return; // Exit the function if any field is empty
         }
@@ -44,13 +50,13 @@ document.addEventListener("DOMContentLoaded", function() {
         
         // Get form data
         var params = {
-            name: document.getElementById("name").value,
+            username: document.getElementById("username").value,
             email: document.getElementById("email").value,
             subject: document.getElementById("subject").value,
             message: document.getElementById("message").value
         };
         
-        const serviceID = "service_qy55s1o"; // Replace YOUR_EMAILJS_SERVICE_ID with your actual EmailJS service ID
+        const serviceID = "service_1ys3fhn"; // Replace YOUR_EMAILJS_SERVICE_ID with your actual EmailJS service ID
         const templateID = "template_itch0m8"; // Replace YOUR_EMAILJS_TEMPLATE_ID with your actual EmailJS template ID
         
         // Send email
@@ -58,12 +64,12 @@ document.addEventListener("DOMContentLoaded", function() {
             .then(function(response) {
                 console.log("Email sent successfully:", response);
                 // Clear form fields after successful submission
-                document.getElementById("name").value = "";
+                document.getElementById("username").value = "";
                 document.getElementById("email").value = "";
                 document.getElementById("subject").value = "";
                 document.getElementById("message").value = "";
                 // Alert the user
-                alert("Thank you, " + params.name + "! Your message has been sent.");
+                alert("Thank you, " + params.username + "! Your message has been sent.");
             }, function(error) {
                 console.error("Email failed to send:", error);
             });
